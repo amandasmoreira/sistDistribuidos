@@ -1,2 +1,4 @@
 # sistDistribuidos
-Laboratórios SD
+  Laboratórios SD 
+  
+  Trabalhos SD
