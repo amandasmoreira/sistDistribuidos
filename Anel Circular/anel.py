@@ -48,9 +48,8 @@ class multThread (threading.Thread):
 if __name__ == "__main__":
     
     threads = []
-
     texto = input(':\n')
-
+    
     for i in range(30):
       threads.append(multThread(i, "Thread-"+str(i)))
       threads[i].start()
