@@ -38,7 +38,6 @@ class multThread (threading.Thread):
                     if texto[i].islower(): 
                       ## se o caracter for minusculo - modifica para maiusculo
                       texto = texto[:i] + texto[i].upper() + texto[i+1:]
-                        
                       time.sleep(1)
                       print(f"Thread {str(self.id)}:")
                       print(f"{texto}\n")
